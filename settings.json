@@ -1,0 +1,170 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "native", // "native" on Linux, "custom" on Windows
+  "window.menuBarVisibility": "toggle",
+  // Disable JS auto-import behavior
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Editor Behavior
+  "editor.selectionClipboard": false, // Only for Linux
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Explorer Behavior
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  // Sets the Font size and family
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "400",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  // Editor indentation settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  // Auto applies editor rules for long lines of code
+  "editor.rulers": [80, 120],
+  // Increases terminal font size
+  "terminal.integrated.fontSize": 16,
+  // ESLint configuration
+  "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  "prettier.trailingComma": "es5",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx" // Defines auto closing tags in JSX
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // Git settings
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  // Extensions
+  "extensions.ignoreRecommendations": false, // Do not ignore recommendations
+  // Colorize settings
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact",
+    "typescript",
+    "json",
+    "html",
+    "css"
+  ],
+  // Peacock colors (customizable)
+  "peacock.favoriteColors": [
+    {
+      "name": "Rocketseat Purple",
+      "value": "#7159C1"
+    },
+    {
+      "name": "Dracula Dark",
+      "value": "#0B0A10"
+    }
+  ],
+  // Pretier settings
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeFunctionCalls": true,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact"
+  },
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.activeIconPack": "nest",
+
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "ormconfig.json": "database"
+  },
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Omni",
+  "editor.linkedEditing": true,
+  "color-highlight.matchWords": true,
+  "color-highlight.matchRgbWithNoFunction": true,
+  "color-highlight.languages": ["*"],
+  "security.workspace.trust.banner": "always",
+  "elixirLS.dialyzerEnabled": false,
+  "elixirLS.suggestSpecs": false,
+  "json.schemas": [],
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.fontFamily": "monospace"
+}
