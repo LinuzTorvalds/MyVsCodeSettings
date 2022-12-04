@@ -18,12 +18,8 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
-  // Sets the Font size and family
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontWeight": "400",
   "editor.fontSize": 15,
   "editor.lineHeight": 24,
-  "editor.fontLigatures": true,
   // Editor indentation settings
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -33,7 +29,7 @@
   // Increases terminal font size
   "terminal.integrated.fontSize": 16,
   // ESLint configuration
-  "eslint.packageManager": "yarn",
+  "eslint.packageManager": "npm",
   "eslint.codeActionsOnSave.mode": "all",
   "prettier.trailingComma": "es5",
   "eslint.validate": [
@@ -55,27 +51,6 @@
   "git.confirmSync": false,
   // Extensions
   "extensions.ignoreRecommendations": false, // Do not ignore recommendations
-  // Colorize settings
-  "colorize.languages": [
-    "javascript",
-    "javascriptreact",
-    "typescriptreact",
-    "typescript",
-    "json",
-    "html",
-    "css"
-  ],
-  // Peacock colors (customizable)
-  "peacock.favoriteColors": [
-    {
-      "name": "Rocketseat Purple",
-      "value": "#7159C1"
-    },
-    {
-      "name": "Dracula Dark",
-      "value": "#0B0A10"
-    }
-  ],
   // Pretier settings
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -150,7 +125,9 @@
     "tsconfig.json": "tune",
     "*.webpack.js": "webpack",
     "*.proto": "3d",
-    "ormconfig.json": "database"
+    "ormconfig.json": "database",
+    "Routes.tsx": "routing",
+    "Routes.ts": "routing"
   },
   "prettier.singleQuote": true,
   "prettier.semi": false,
@@ -158,13 +135,16 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.colorTheme": "Omni",
   "editor.linkedEditing": true,
-  "color-highlight.matchWords": true,
-  "color-highlight.matchRgbWithNoFunction": true,
-  "color-highlight.languages": ["*"],
   "security.workspace.trust.banner": "always",
-  "elixirLS.dialyzerEnabled": false,
-  "elixirLS.suggestSpecs": false,
   "json.schemas": [],
   "tabnine.experimentalAutoImports": true,
-  "terminal.integrated.fontFamily": "monospace"
+  "terminal.integrated.fontFamily": "monospace",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "workbench.sideBar.location": "right"
 }
